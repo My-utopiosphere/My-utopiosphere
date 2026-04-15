@@ -1,5 +1,8 @@
 module.exports = {
   eleventyComputed: {
-    permalink: data => `/notes/무제/${data.page.fileSlug}/`
+    permalink: data => {
+      if (data.permalink) return data.permalink;
+      return `/notes/무제/${data.page.fileSlug}/`;
+    }
   }
 };
