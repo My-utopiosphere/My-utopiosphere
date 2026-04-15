@@ -1,0 +1,5 @@
+{
+  "eleventyComputed": {
+    "permalink": "/notes/무제/{{ fileSlug }}/"
+  }
+}
