@@ -5,4 +5,3 @@ module.exports = {
       return `/notes/무제/${data.page.fileSlug}/`;
     }
   }
-};
